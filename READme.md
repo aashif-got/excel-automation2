@@ -1,16 +1,19 @@
 # 📊 Excel Automation Bot
 
-This Python script automates Excel tasks. It reads sales data, groups it by product, and generates a summary report as a new Excel file.
+This Python script reads a sales Excel file, groups data by product, and creates a summary report.
 
-## 🧰 Tools Used
+## 🛠 Tools Used
 - Python
 - pandas
 - openpyxl
 
-## 📂 How It Works
-1. Reads `sales_data.xlsx` (with columns: Name, Product, Sales)
-2. Groups sales totals by product
-3. Outputs result to `sales_summary.xlsx`
+## 📂 Features
+- Reads Excel file with customer sales
+- Summarizes total sales per product
+- Saves a new Excel report
 
 ## ▶️ How to Run
-1. Make sure Python and pandas are installed:
+1. Install required libraries:
+   ```bash
+   pip install pandas openpyxl
+    
